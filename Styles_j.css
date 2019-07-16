@@ -1,0 +1,9 @@
+#par1 {
+    position: relative;
+    z-index: 0;
+    top: 50px; 
+    left: 50%;
+    font-family: Verdana;
+    font-size: 22px;
+    color: red;
+    }
