@@ -2,9 +2,22 @@
 <html>
 <head>
  <meta charset="UTF-8">
- <link rel="stylesheet"type="text/css"href="styles_j.css">
+ <style>
+  #par1 {
+   position: relative;
+   z-index: 0;
+   top: 50px; 
+   left: 50%;
+   font-family: Verdana;
+   font-size: 22px;
+   color: red;
+  }  
+ </style>  
 </head>
 <body>
   <p id="par1"> Hello world!</p> 
+  <script>
+  document.getElementById("par1").innerHTML = "Goodbye world!";
+  </script>
 </body>
 </html>
