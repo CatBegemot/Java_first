@@ -12,7 +12,7 @@
    font-size: 22px;
    color: red;
   }  
-  .par2 {
+  #par2 {
    position: relative;
    z-index: 0;
    top: 100px; 
@@ -25,13 +25,13 @@
 </head>
 <body>
   <p id="par1"> Hello world!</p> 
-  <div class="par2">
+  <div id="par2">
     <p> Not now </p>
   </div>
   <script>
   document.getElementById("par2").innerHTML = "Goodbye world!";
   </script>
-  <div class="par2">
+  <div id="par2">
     <p> And not now </p>
   </div>
 </body>
