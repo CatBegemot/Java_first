@@ -2,39 +2,11 @@
 <html>
 <head>
  <meta charset="UTF-8">
- <style>
-  #par1 {
-   position: relative;
-   z-index: 0;
-   top: 50px; 
-   left: 50%;
-   font-family: Verdana;
-   font-size: 22px;
-   color: red;
-  }  
-  #par2 {
-   position: relative;
-   z-index: 0;
-   top: 100px; 
-   left: 50%;
-   font-family: Verdana;
-   font-size: 24px;
-   color: red;
-  }  
- </style>  
 </head>
 <body>
   <p id="par1"> Hello world!</p> 
-  <div id="par2">
-    <p> Not now </p>
-  </div>
-  <script>
-  document.getElementById("par1").innerHTML = "Goodbye world!";
-  document.getElementById("par2").style.color = "blue";
-  document.getElementById("par1").style.fontSize = "30px";
-  </script>
-  <div id="par2">
-    <p> And not now </p>
-  </div>
+  <p id="par2"> Not now </p>
+  <p id="par2"> And not now </p>
+  <script src="index.js"></script> 
 </body>
 </html>
