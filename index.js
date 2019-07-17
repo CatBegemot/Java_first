@@ -1,6 +1,6 @@
 var div = document.createElement("div");
 document.body.appendChild(div);
-document.getElementById("par1").innerHTML = "Goodbye world!";
+/*document.getElementById("par1").innerHTML = "Goodbye world!";*/
 document.getElementById("par1").style.color = "blue";
 document.getElementById("par2").style.color = "red";
 document.getElementById("par3").style.color = "green";
