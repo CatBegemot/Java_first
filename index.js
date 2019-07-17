@@ -1,5 +1,4 @@
-var div = 
-document.createElement("div");
+var div = document.createElement("div");
 document.body.appendChild(div);
 document.getElementById("par1").innerHTML = "Goodbye world!";
 document.getElementById("par1").style.color = "blue";
