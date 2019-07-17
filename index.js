@@ -1,5 +1,8 @@
 var div = document.createElement("div");
 document.body.appendChild(div);
+var par1 = document.createElement("p")
+div.appendChild(par1);
+div1.id = "div1"
 //document.getElementById("par1").innerHTML = "Goodbye world!";//
 // document.getElementById("par1").style.color = "blue";
 // document.getElementById("par2").style.color = "red";
