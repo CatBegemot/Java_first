@@ -6,4 +6,4 @@ var par1 = document.createElement("p");
 document.body.appendChild(par1);
 var pict = document.createElement("img");
 document.body.appendChild(pict);
-div1.appendChild(par1);
+div2.appendChild(par1);
