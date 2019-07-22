@@ -7,3 +7,7 @@ document.body.appendChild(par1);
 var pict = document.createElement("img");
 document.body.appendChild(pict);
 div2.appendChild(par1);
+var link1 = document.createElement("a");
+document.body.appendChild(link1);
+par1.innerHTML = "Goodbye world!";
+pict.src = "/picts/smBlackCat.jpg" ;
