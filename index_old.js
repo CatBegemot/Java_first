@@ -14,7 +14,7 @@ par1.innerHTML = "Hello world!";
 
 var link1 = document.createElement("a");
 document.body.appendChild(link1);
-link1.href="../First-Expiriens-1/home.html"
+link1.href="home.html";
 link1.style.color = "red";
 link1.style.fontSize = "20px";
 link1.style.fontFamily = "Verdana";
