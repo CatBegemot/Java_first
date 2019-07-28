@@ -1,4 +1,4 @@
-imgPath = "../My_web/img/"
+imgPath = "../typescript-tutorial/img/"
 
 var pictHome = document.createElement("img");
 document.body.appendChild(pictHome);
