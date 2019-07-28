@@ -20,7 +20,6 @@ link1.style.fontSize = "20px";
 link1.style.fontFamily = "Verdana";
 link1.innerHTML = "Warior";
 
-imgPath = "../typescript-tutorial/img/"
 var pict = document.createElement("img");
 document.body.appendChild(pict);
 pict.src = imgPath + "smBlackCat.jpg";

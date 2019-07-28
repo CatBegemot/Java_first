@@ -1,0 +1,1 @@
+imgPath = "../My_web/img/"
