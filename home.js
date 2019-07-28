@@ -9,7 +9,7 @@ linkHome.href="home.html";
 
 var pictAbout = document.createElement("img");
 document.body.appendChild(pictAbout);
-pictAbout.src = imgPath +"about_1.jpg";
+pictAbout.src = imgPath +"about.jpg";
 var linkAbout = document.createElement("A");
 document.body.appendChild(linkAbout);
 linkAbout.href="about.html";

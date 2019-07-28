@@ -1,4 +1,5 @@
 imgPath = "../My_web/img/"
+
 var pictHome = document.createElement("img");
 document.body.appendChild(pictHome);
 pictHome.src = imgPath + "home.jpg";
