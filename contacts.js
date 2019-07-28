@@ -1,20 +1,22 @@
-var pict_home = document.createElement("img");
-document.body.appendChild(pict_home);
-pict_home.src = "../My_web/img/home.jpg";
-var link_home = document.createElement("A");
-document.body.appendChild(link_home);
-link_home.href="home.html";
+imgPath = "../My_web/img/"
 
-var pict_about = document.createElement("img");
-document.body.appendChild(pict_about);
-pict_about.src = "../My_web/img/about.jpg";
-var link_about = document.createElement("A");
-document.body.appendChild(link_about);
-link_about.href="about.html";
+var pictHome = document.createElement("img");
+document.body.appendChild(pictHome);
+pictHome.src = imgPath + "home.jpg";
+var linkHome = document.createElement("A");
+document.body.appendChild(linkHome);
+linkHome.href="home.html";
 
-var pict_contacts = document.createElement("img");
-document.body.appendChild(pict_contacts);
-pict_contacts.src = "../My_web/img/contacts_1.jpg";
-var link_contacts = document.createElement("A");
-document.body.appendChild(link_contacts);
-link_contacts.href="contacts.html";
+var pictAbout = document.createElement("img");
+document.body.appendChild(pictAbout);
+pictAbout.src = imgPath +"about_1.jpg";
+var linkAbout = document.createElement("A");
+document.body.appendChild(linkAbout);
+linkAbout.href="about.html";
+
+var pictContacts = document.createElement("img");
+document.body.appendChild(pictContacts);
+pictContacts.src = imgPath + "contacts_1.jpg";
+var linkContacts = document.createElement("A");
+document.body.appendChild(linkContacts);
+linkContacts.href="contacts.html";
