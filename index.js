@@ -20,14 +20,15 @@ parTest.innerHTML = "2 + 2 = ";
 parTest.onmouseover = function() {test()};
 parTest.onmouseout = function() {test1()};
 
-var link1 = document.createElement("a");
-document.body.appendChild(link1);
-link1.href="home.html";
-link1.style.color = "red";
-link1.style.fontSize = "20px";
-link1.style.fontFamily = "Verdana";
-link1.innerHTML = "Warior";
+var linkHome = document.createElement("a");
+document.body.appendChild(linkHome);
+linkHome.href="home.html";
+linkHome.style.color = "red";
+linkHome.style.fontSize = "20px";
+linkHome.style.fontFamily = "Verdana";
+linkHome.innerHTML = "Warior";
 
 var pict = document.createElement("img");
 document.body.appendChild(pict);
 pict.src = imgPath + "smBlackCat.jpg";
+
