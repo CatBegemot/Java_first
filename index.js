@@ -15,7 +15,9 @@ par1.innerHTML = "Hello world!";
 var parTest = document.createElement("p");
 document.body.appendChild(parTest);
 div2.appendChild(parTest);
-parTest.innerHTML = test();
+document.getElementById("parTest");
+parTest.innerHTML = "2 + 2 = ";
+parTest.onmouseover = function() {test()};
 
 var link1 = document.createElement("a");
 document.body.appendChild(link1);
