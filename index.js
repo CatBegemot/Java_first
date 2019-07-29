@@ -12,6 +12,11 @@ document.body.appendChild(par1);
 div2.appendChild(par1);
 par1.innerHTML = "Hello world!";
 
+var parTest = document.createElement("p");
+document.body.appendChild(parTest);
+div2.appendChild(parTest);
+parTest.innerHTML = test();
+
 var link1 = document.createElement("a");
 document.body.appendChild(link1);
 link1.href="home.html";
