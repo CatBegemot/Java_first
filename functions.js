@@ -2,4 +2,7 @@ function test() {
     document.getElementById("parTest").innerHTML = "2 + 2 = 4";
     return;
 }
-// img.onclick.href = "index.html"
+function test1() {
+    document.getElementById("parTest").innerHTML = "2 + 2 =";
+    return;
+}

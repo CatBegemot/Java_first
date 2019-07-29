@@ -18,6 +18,7 @@ div2.appendChild(parTest);
 parTest.id = "parTest";
 parTest.innerHTML = "2 + 2 = ";
 parTest.onmouseover = function() {test()};
+parTest.onmouseout = function() {test1()};
 
 var link1 = document.createElement("a");
 document.body.appendChild(link1);
