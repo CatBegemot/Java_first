@@ -5,7 +5,7 @@ pictHome.src = imgPath + "home_1.jpg";
 var linkHome = document.createElement("A");
 pictHome.onmouseover = function() {testHomeOn()};
 pictHome.onmouseout = function() {testHomeOff()};
-pictHome.onmouseclick = function() {testLink()};
+pictHome.onclick = function() {testLink()};
 
 var pictAbout = document.createElement("img");
 document.body.appendChild(pictAbout);
